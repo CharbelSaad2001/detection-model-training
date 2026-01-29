@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 9
+names: ['Cat', 'Dog', 'Pig', 'bird', 'cow', 'duck', 'hen', 'horse', 'sheep']
+
+roboflow:
+  workspace: charbel
+  project: tesisanimales
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/charbel/tesisanimales/dataset/2
