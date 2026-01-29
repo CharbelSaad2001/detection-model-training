@@ -47,9 +47,7 @@ dataset/**/*.txt
 !dataset/README*.txt
 
 # Trained Models
-runs/
 *.pt
-*.onnx
 *.engine
 *.tflite
 *.mlmodel
@@ -62,7 +60,6 @@ yolo*.pt
 
 # Model Exports
 exports/
-*.onnx
 *.tflite
 *.mlmodel
 *.engine
