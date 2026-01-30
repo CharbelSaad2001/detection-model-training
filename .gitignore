@@ -47,7 +47,7 @@ dataset/**/*.txt
 !dataset/README*.txt
 
 # Trained Models
-*.pt
+./*.pt
 *.engine
 *.tflite
 *.mlmodel
